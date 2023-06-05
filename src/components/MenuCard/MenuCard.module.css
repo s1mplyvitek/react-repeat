@@ -1,3 +1,7 @@
 .test {
     font-family: Georgia, serif;
 }
+
+.bg {
+    background-size: 100%;
+}
