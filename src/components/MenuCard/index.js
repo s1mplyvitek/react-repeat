@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import style from "./MenuCard.module.css"
 
 const MenuCard = ({ item, onClickBuy = () => {} }) => {
@@ -11,7 +12,10 @@ const MenuCard = ({ item, onClickBuy = () => {} }) => {
         <div className={"rounded shadow-lg text-center overflow-hidden " + style.test}>
             <img className="container" src={item.image} />
             <div className="p-6">
-                <div className=" text-3xl font-bold">{item.name}</div>
+                <Link to={`/catalog/${item.id}`}>
+                   <div className=" text-3xl font-bold">{item.name}</div> 
+                </Link>
+                
                 <div className="p-2">
                     {ingridients}
                 </div>

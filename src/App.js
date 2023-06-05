@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Menu from "./components/Menu";
+import Menu from "./pages/MenuPage";
 import CartWidget from "./components/CartWidget";
 import DarkThemeSwitcher from "./components/DarkThemeSwithcer";
 import { Outlet } from "react-router-dom";
@@ -20,7 +20,7 @@ function App() {
   }
 
   return (
-    <div className={"fixed w-full h-full " +
+    <div className={"w-full h-full" +
       (themeDark ? "dark bg-slate-950 text-white" : "")
       }>  
       <div className="">

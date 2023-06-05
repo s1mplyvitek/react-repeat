@@ -1,6 +1,6 @@
 const ContactsPage = () => {
     return (
-        <div>
+        <div className="">
             Наш номер телефона
             <a href="tel:+7900000000">+7900000000</a>
         </div>

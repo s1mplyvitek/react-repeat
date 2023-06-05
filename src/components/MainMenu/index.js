@@ -7,7 +7,7 @@ const MainMenu = () => {
     ]
 
     return (
-        <div className="flex gap-6 px-20 text-2xl">
+        <div className="flex gap-6 px-20 text-2xl justify-center">
             {menuItems.map((item) => (
                 <Link to={item.link}>{item.title}</Link>
             ))}
