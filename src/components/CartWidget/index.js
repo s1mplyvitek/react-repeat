@@ -3,7 +3,7 @@ import CartIcon from "../svg/CartIcon";
 
 const CartWidget = ({ cart }) => {
     return (
-        <div className="mx-auto px-10 py-1 container grid justify-end ">
+        <div className="grid justify-end ">
             <div>
                 <CartIcon />
             </div>

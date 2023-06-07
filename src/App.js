@@ -20,10 +20,10 @@ function App() {
   }
 
   return (
-    <div className={"w-full h-full" +
-      (themeDark ? "dark bg-slate-950 text-white" : "")
+    <div className={"" +
+      (themeDark ? "dark bg-slate-950 min-h-screen text-white " : "")
       }>  
-      <div className="">
+      <div className="container mx-auto px-10 py-2">
         <DarkThemeSwitcher darkTheme={themeDark} setDarkTheme={setDarkTheme}></DarkThemeSwitcher>
         <CartWidget cart={cart}></CartWidget>
         <MainMenu />

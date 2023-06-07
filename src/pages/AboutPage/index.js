@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const AboutPage = () => {
     return (
-        <div className="container mx-auto">
+        <div className="">
             <h1>О нашем заведении</h1>
             <p>Самое лучшее кафе в городе!</p>
 

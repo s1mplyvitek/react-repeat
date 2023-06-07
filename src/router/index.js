@@ -4,6 +4,8 @@ import AboutPage from "../pages/AboutPage";
 import Menu from "../pages/MenuPage";
 import ContactsPage from "../pages/ContactsPage";
 import MenuItemPage from "../pages/MenuItemPage";
+import RecallPage from "../pages/RecallPage";
+import OneItemPage from "../pages/OneItemPage";
 
 const router = createBrowserRouter([
     {
@@ -31,6 +33,14 @@ const router = createBrowserRouter([
                         element: <ContactsPage />                            
                     }
                 ]
+            },
+            {
+                path: "recall",
+                element: <RecallPage />
+            },
+            {
+                path: "oneitem",
+                element: <OneItemPage />
             },
         ],
     },
