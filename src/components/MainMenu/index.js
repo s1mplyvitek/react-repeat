@@ -9,7 +9,7 @@ const MainMenu = () => {
     ]
 
     return (
-        <div className="flex pb-5 gap-6 text-2xl justify-center">
+        <div className="flex p-5 gap-6 text-3xl justify-center">
             {menuItems.map((item) => (
                 <Link to={item.link}>{item.title}</Link>
             ))}
